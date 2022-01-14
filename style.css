@@ -1,0 +1,120 @@
+
+
+/* -----------COMON STYLES------------ */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+main, .nav-menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.container{
+    width: 1050px;
+    margin-top: 50px;
+}
+
+/*---------------- 
+STYLES
+------------------ */
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 16px;
+    color: #3A3A3A;
+}
+
+/* Photograper area style  */
+
+.photographer-area{
+    display: flex;
+}
+.photographer-header{
+    font-size: 52px;
+    font-weight: bold;
+    line-height: 22px;
+}
+.photographer-detail{
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.explore-button{
+    text-decoration: none;
+    padding: 10px 70px;
+    background-color: #2827CC;
+    border-radius: 43px;
+    color: white;
+}
+ /*--------------------
+  Logos style ---------------------------- */
+  .logos{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-top: 1px solid rgba(0, 0, 0, 0.274);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  }
+  .logos img{
+      padding: 30px;
+  }
+
+  /* products collection style  */
+  .products{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 15px;
+      margin-bottom: 50px;
+  }
+  .product{
+      width: 350px;
+      height: 485px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  }
+  .product-info{
+      padding-left: 15px;
+      line-height: 5px;
+  }
+  .product-header{
+        color: #3A3A3A;
+        font-size: 28px;
+        text-align: center;
+  }
+  .product-banner img{
+    width: 320px;
+    height: 256px;
+    padding: 15px 15px;
+  }
+  .product-name{
+      font-size: 28px;
+  }
+  .product-ratings{
+      display: flex;
+      align-items: center;
+  }
+  .fa-star, .fa-star-half-alt{
+    color: #FB8200;
+    font-size: 16px;
+  }
+  #rating{
+      padding-left: 10px;
+  }
+  #see-more-button{
+      text-decoration: none;
+      font-size: 20px;
+      color: #2827CC;
+      float: right;
+  }
