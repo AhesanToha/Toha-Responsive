@@ -21,6 +21,8 @@ main, .nav-menu{
 /*---------------- 
 STYLES
 ------------------ */
+
+/* Navbar styles */
 nav{
     display: flex;
     justify-content:space-between;
@@ -75,7 +77,8 @@ nav ul li a{
     color: white;
 }
  /*--------------------
-  Logos style ---------------------------- */
+  Logos style 
+  ---------------------------- */
   .logos{
       display: flex;
       justify-content: center;
@@ -193,6 +196,7 @@ nav ul li a{
  .social-media a{
      color: #FFFFFF;
      font-size: 32px;
+     margin-right: 10px;
  }
 
 
@@ -230,7 +234,8 @@ Media Quaries
         padding: 0 5%;
     }
     .logos{
-        display: grid;
+        display: flex;
+        flex-wrap: wrap;
     }
     .products{
         grid-template-columns: repeat(1, 1fr);
@@ -243,3 +248,33 @@ Media Quaries
         margin-top: 50px;
     }
 }
+
+
+/* --------------------
+Tablet Devices responsive
+-------------------- */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .nav-menu{
+        padding: 0 15px;
+    }
+    .photographer-area, .feature-area{
+        padding: 0 15px;
+        width: 100%;
+    }
+    .photographer-header{
+        font-size: 2em;
+    }
+    .logos{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Media Queries End  */
