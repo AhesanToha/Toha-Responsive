@@ -42,6 +42,10 @@ nav ul li a{
 .photographer-area{
     display: flex;
 }
+.photographer-area:hover .camera{
+    transform: scale(1.2);
+    transition: transform 0.7s ease-in-out;
+}
 .photographer-header{
     font-size: 52px;
     font-weight: bold;
@@ -118,3 +122,56 @@ nav ul li a{
       color: #2827CC;
       float: right;
   }
+
+  /* Feature styles */
+.feature-area{
+    display: flex;
+    margin-bottom: 100px;
+}
+.feature-area img{
+      border-radius: 5px;
+      width: 404px;
+      height: 270px;
+}
+.feature-detail{
+    padding-left: 96px;
+}
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.feature-detail p{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.feature-button{
+    text-decoration: none;
+    color: white;
+    background-color: #2827CC;
+    padding: 10px 40px;
+}
+
+/*--------------
+ Footer styles 
+ ---------------- */
+
+ footer{
+     background-color: #0A0826 ;
+     color: #FFFFFF;
+     text-align: center;
+     line-height: 15px;
+     padding: 20px 0;
+ }
+ footer h3{
+     font-size: 24px;
+     font-weight: 700;
+ }
+ footer p{
+    color: #D9DBE1;
+
+ }
+ .social-media a{
+     color: #FFFFFF;
+     font-size: 32px;
+ }
